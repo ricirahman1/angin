@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnanas"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/back"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nanas"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kandungan"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#4B5563"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:text="13 g"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/shapebar"
+            android:textColor="#BE185D"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:text="0,5 g"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/shapebar"
+            android:textColor="#BE185D"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:text="0,1 g"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/shapebar"
+            android:textColor="#BE185D"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="343dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:text="Buah nanas adalah buah tropis yang tidak mengenal musim. Manfaat buah nanas yait, kaya nutrisi, antioksidan, melancarkan pencernaan, membuat tulang ikan, meredakan peradangan, membantu mencegah kanker, mengurangi diare, mengurangi gejala arthritis, dan menurunkan berat badan."
+            android:layout_marginLeft="30dp"
+            android:textSize="18dp"
+            android:textColor="#4B5563"
+            android:layout_marginRight="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:itemBackground="@color/purple_200"
+                app:itemIconTint="@drawable/selector"
+                app:itemTextColor="@drawable/selector"
+                app:menu="@menu/menu_navigation" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

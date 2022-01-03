@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="297dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login"
+            android:gravity="left"
+            android:hint="Username"
+            android:textColorHint="#F9A8D4"
+            android:drawableStart="@drawable/logo_profil"
+            android:drawablePadding="12dp"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:inputType="text"/>
+        <EditText
+            android:layout_width="297dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape_login"
+            android:gravity="left"
+            android:hint="Password"
+            android:textColorHint="#F9A8D4"
+            android:drawableStart="@drawable/logo_email"
+            android:drawablePadding="12dp"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:inputType="text"/>
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logginBtn"
+        android:layout_width="297dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_button_login"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="42dp"
+        android:text="SIGN IN"
+        android:textSize="19sp"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Forgot Password?"
+        android:textSize="14sp"
+        android:textColor="#BE185D"
+        android:layout_marginTop="68dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Or Login With"
+        android:textSize="14sp"
+        android:textColor="#4B5563"
+        android:layout_marginTop="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/logo_fb" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/logo_twitter" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/logo_google" />
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Don’t have an account? sign in"
+        android:textSize="14sp"
+        android:textColor="#4B5563"
+        android:layout_marginTop="30dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+
+</LinearLayout>

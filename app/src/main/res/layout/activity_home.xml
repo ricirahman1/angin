@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bchome"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="54dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/logo_ac" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi, Fahira"
+            android:textSize="15sp"
+            android:textColor="#4B5563"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktivitas Harian"
+        android:textColor="#4B5563"
+        android:textSize="15dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/olahraga"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/shape_home">
+        </ImageView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/makanansehat"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/shape_home">
+        </ImageView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/polamakan"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/shape_home">
+        </ImageView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/menejemenwaktu"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="2dp"
+            android:background="@drawable/shape_home">
+        </ImageView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktivitas Terakhir"
+        android:textColor="#4B5563"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp">
+            <ImageButton
+                android:layout_width="170dp"
+                android:layout_height="220dp"
+                android:background="@drawable/renang"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp">
+                <ImageButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/joging"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                app:cardCornerRadius="20dp">
+                <ImageButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/makanan"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
